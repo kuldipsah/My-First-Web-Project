@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CareerConnect - Job Portal</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>CareerConnect</h1>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#jobs">Jobs</a> |
+            <a href="#details">Job Details</a> |
+            <a href="#apply">Apply</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- HOME SECTION -->
+    <section id="home">
+        <h2>Find Your Dream Job</h2>
+        <p>Welcome to CareerConnect – a simple job portal built using HTML only.</p>
+        <p>Browse job openings and apply easily!</p>
+        <a href="#jobs">Browse Jobs →</a>
+    </section>
+
+    <hr>
+
+    <!-- JOB LIST SECTION -->
+    <section id="jobs">
+        <h2>Available Jobs</h2>
+
+        <table border="1" width="100%" cellpadding="8">
+            <tr>
+                <th>Job Title</th>
+                <th>Company</th>
+                <th>Location</th>
+                <th>Details</th>
+            </tr>
+
+            <tr>
+                <td>Junior Web Developer</td>
+                <td>TechNova</td>
+                <td>Tokyo, Japan</td>
+                <td><a href="#details">View Details</a></td>
+            </tr>
+
+            <tr>
+                <td>Frontend Designer</td>
+                <td>PixelSoft</td>
+                <td>Osaka, Japan</td>
+                <td><a href="#details">View Details</a></td>
+            </tr>
+
+            <tr>
+                <td>IT Support Assistant</td>
+                <td>InfoHub</td>
+                <td>Kyoto, Japan</td>
+                <td><a href="#details">View Details</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- JOB DETAILS SECTION -->
+    <section id="details">
+        <h2>Job Details: Junior Web Developer</h2>
+
+        <p><strong>Company:</strong> TechNova</p>
+        <p><strong>Location:</strong> Tokyo, Japan</p>
+        <p><strong>Salary:</strong> ¥3,000,000 - ¥3,500,000 / year</p>
+
+        <h3>Description</h3>
+        <p>We are looking for a Junior Web Developer with basic knowledge of HTML, CSS, and JavaScript.</p>
+
+        <h3>Responsibilities</h3>
+        <ul>
+            <li>Build and update web pages</li>
+            <li>Work with senior developers</li>
+            <li>Fix layout bugs</li>
+            <li>Participate in team meetings</li>
+        </ul>
+
+        <h3>Required Skills</h3>
+        <ul>
+            <li>Basic HTML</li>
+            <li>Basic CSS</li>
+            <li>Eagerness to learn JavaScript</li>
+            <li>Teamwork skills</li>
+        </ul>
+
+        <a href="#apply">Apply Now →</a>
+    </section>
+
+    <hr>
+
+    <!-- APPLICATION FORM -->
+    <section id="apply">
+        <h2>Apply for This Job</h2>
+
+        <form>
+            <label>Full Name:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" required><br><br>
+
+            <label>Phone:</label><br>
+            <input type="tel" required><br><br>
+
+            <label>Position:</label><br>
+            <select required>
+                <option>Junior Web Developer</option>
+                <option>Frontend Designer</option>
+                <option>IT Support Assistant</option>
+            </select><br><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox"> HTML<br>
+            <input type="checkbox"> CSS<br>
+            <input type="checkbox"> JavaScript<br>
+            <input type="checkbox"> Responsive Design<br><br>
+
+            <label>Upload CV:</label><br>
+            <input type="file" required><br><br>
+
+            <label>Message:</label><br>
+            <textarea rows="5"></textarea><br><br>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 CareerConnect</p>
+    </footer>
+
+</body>
+</html>
